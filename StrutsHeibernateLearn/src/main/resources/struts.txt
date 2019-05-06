@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <package name="null" extends="struts-default">
+        <action name="addProduct" class="com.helin.action.ProductAction"
+                method="add">
+            <result name="list" type="redirect">listProduct.action</result>
+        </action>
+        <action name="deleteProduct" class="com.helin.action.ProductAction"
+                method="delete">
+            <result name="list" type="redirect">listProduct.action</result>
+        </action>
+        <action name="editProduct" class="com.helin.action.ProductAction"
+                method="edit">
+            <result name="edit">product/edit.jsp</result>
+        </action>
+        <action name="  " class="com.helin.action.ProductAction"
+                method="update">
+            <result name="list" type="redirect">listProduct.action</result>
+        </action>
+        <action name="listProduct" class="com.helin.action.ProductAction"
+                method="list">
+            <result name="listJsp">product/list.jsp</result>
+        </action>
+    </package>
+
+</struts>

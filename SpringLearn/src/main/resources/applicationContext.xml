@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.helin.pojo"/>
+    <context:component-scan base-package="com.helin.aspect"/>
+    <context:component-scan base-package="com.helin.service"/>
+    <aop:aspectj-autoproxy/>
+</beans>
+
+
+<!---========2非注解的方式-->
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--xmlns:context="http://www.springframework.org/schema/context"-->
+<!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">-->
+
+<!--<context:annotation-config/>-->
+<!--<bean name="c" class="com.helin.pojo.Category">-->
+<!--<property name="name" value="category 1" />-->
+<!--</bean>-->
+<!--<bean name="p" class="com.helin.pojo.Product">-->
+<!--<property name="name" value="product1" />-->
+<!--&lt;!&ndash;<property name="category" ref="c" />&ndash;&gt;-->
+<!--</bean>-->
+<!--</beans>-->

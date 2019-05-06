@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.helin.pojo">
+    <class name="Category" table="category_">
+        <!--二级缓存-->
+        <cache usage="read-only"/>
+        <id name="id" column="id">
+            <generator class="native">
+            </generator>
+        </id>
+        <!--版本控制字段，防止重复修改，加锁-->
+        <!--<version name="version" column="ver" type="int"></version>-->
+        <property name="name" />
+        <!--级联删除-->
+        <!--<set name="products" lazy="false" cascade="delete">-->
+        <!--级联更新-->
+        <!--<set name="products" lazy="false" cascade="save-update">-->
+        <!--缓存的时候lazy为true-->
+        <set name="products" lazy="true" cascade="save-update">
+            <key column="cid" not-null="false" />
+            <one-to-many class="Product" />
+        </set>
+    </class>
+
+</hibernate-mapping>

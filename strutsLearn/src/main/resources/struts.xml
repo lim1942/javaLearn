@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+    <package name="null" extends="struts-default">
+        <!--这里的name自定义、尽量与Action中的name相同，method定位到所处action中的class的具体方法，result的name为return 后返回的方法名称-->
+        <action name="showProduct" class="action.ProductAction" method="show">
+            <result name="show">show.jsp</result>
+        </action>
+        <action name="addProduct" class="action.ProductAction" method="add">
+            <result name="show">show.jsp</result>
+        </action>
+        <action name="listProduct" class="action.ProductAction" method="list">
+            <result name="list">list.jsp</result>
+        </action>
+    </package>
+</struts>
