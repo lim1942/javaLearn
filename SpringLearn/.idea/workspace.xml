@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b198941-5de5-4184-93c1-ab69fe4975ae" name="Default Changelist" comment="" />
+    <list default="true" id="3b198941-5de5-4184-93c1-ab69fe4975ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HibernateLearn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/hibernate3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/javassist_3_12_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/jta_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/libraries/org_springframework_transaction_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/src/main/java/com/helin/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/src/main/java/com/helin/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/src/resources/Category.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/src/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHeibenateLearn/src/test/java/com/helin/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,20 +31,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/pojo/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="153">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/aspect/LoggerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="85">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="123">
+              <caret line="22" selection-start-line="22" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/helin/TestSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +126,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -132,26 +149,12 @@
     <option name="width" value="1326" />
     <option name="height" value="812" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -168,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -225,21 +229,23 @@
       <option name="presentableId" value="Default" />
       <updated>1557042907212</updated>
       <workItem from="1557042908632" duration="3332000" />
+      <workItem from="1557112548100" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3332000" />
+    <option name="totallyTimeSpent" value="3877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="26" width="1326" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35747662" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.36292836" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -270,28 +276,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/helin/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/helin/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="153">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -300,13 +291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -319,7 +303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/aspect/LoggerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="85">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -329,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/helin/TestSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -347,10 +331,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helin/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="123">
+          <caret line="22" selection-start-line="22" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
